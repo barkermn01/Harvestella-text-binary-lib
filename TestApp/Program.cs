@@ -55,18 +55,17 @@ namespace TestApp
         static void Main(string[] args)
         {
             Parsers.KeyValueBinary kvbParser = new Parsers.KeyValueBinary();
-            kvbParser.readFile(@"E:\Mods\Havestella\Scripts\TQ_Lethe_ChildDemon_03_01.bin");
+            kvbParser.setData(inp);
             kvbParser.ParseData();
             Dictionary<String, String> dict = kvbParser.getAsDictionary();
             foreach(KeyValuePair<string, string> kvp in dict)
             {
-                Console.WriteLine("'{0}' {1} = '{2}' {3}", kvp.Key, (kvp.Key.Length % 4), kvp.Value, (kvp.Value.Length%4));
+                Console.WriteLine("'{0}' = '{1}'", kvp.Key, kvp.Value);
             }
 
             Builders.KeyValueBinary kvbBuilder = new Builders.KeyValueBinary();
             kvbBuilder.fromDictionary(dict);
             byte[] bytes = kvbBuilder.getData();
-            kvbBuilder.saveDataToFile(@"E:\Mods\Havestella\Scripts\Comparison.bin");
 
             bool match = CompareArrayValuesMatch(inp, bytes);
             Console.WriteLine(match ? "Data Constructed Correctly" : "Data does not match");
