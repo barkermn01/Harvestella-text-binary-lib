@@ -48,13 +48,13 @@ namespace TestApp.Builders
             byte[][] keysData = new byte[items][];
             for(int i = 0; i < keys.Length; i++) 
             {
-                keysData[i] = Utils.ConvertBytesToString(keys[i]);
+                keysData[i] = Utils.ConvertStringToBytes(keys[i]);
                 totalBytes += (uint)keysData[i].Length+4;
             }
             byte[][] valsData = new byte[items][];
             for (int i = 0; i < keys.Length; i++)
             {
-                valsData[i] = Utils.ConvertBytesToString(values[i]);
+                valsData[i] = Utils.ConvertStringToBytes(values[i]);
                 totalBytes += (uint)valsData[i].Length+4;
             }
 
