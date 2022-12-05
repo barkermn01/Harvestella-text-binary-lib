@@ -3,7 +3,6 @@ C:\Users\Marti\source\repos\TestApp\TestApp\bin\Debug\net5.0\TestApp.deps.json
 C:\Users\Marti\source\repos\TestApp\TestApp\bin\Debug\net5.0\TestApp.runtimeconfig.json
 C:\Users\Marti\source\repos\TestApp\TestApp\bin\Debug\net5.0\TestApp.runtimeconfig.dev.json
 C:\Users\Marti\source\repos\TestApp\TestApp\bin\Debug\net5.0\TestApp.dll
-C:\Users\Marti\source\repos\TestApp\TestApp\bin\Debug\net5.0\ref\TestApp.dll
 C:\Users\Marti\source\repos\TestApp\TestApp\bin\Debug\net5.0\TestApp.pdb
 C:\Users\Marti\source\repos\TestApp\TestApp\obj\Debug\net5.0\TestApp.csproj.AssemblyReference.cache
 C:\Users\Marti\source\repos\TestApp\TestApp\obj\Debug\net5.0\TestApp.GeneratedMSBuildEditorConfig.editorconfig
@@ -14,3 +13,7 @@ C:\Users\Marti\source\repos\TestApp\TestApp\obj\Debug\net5.0\TestApp.dll
 C:\Users\Marti\source\repos\TestApp\TestApp\obj\Debug\net5.0\ref\TestApp.dll
 C:\Users\Marti\source\repos\TestApp\TestApp\obj\Debug\net5.0\TestApp.pdb
 C:\Users\Marti\source\repos\TestApp\TestApp\obj\Debug\net5.0\TestApp.genruntimeconfig.cache
+C:\Users\Marti\source\repos\TestApp\TestApp\bin\Debug\net5.0\HarvestellaBinLib.dll
+C:\Users\Marti\source\repos\TestApp\TestApp\bin\Debug\net5.0\HarvestellaBinLib.pdb
+C:\Users\Marti\source\repos\TestApp\TestApp\obj\Debug\net5.0\TestApp.csproj.CopyComplete
+C:\Users\Marti\source\repos\TestApp\TestApp\obj\Debug\net5.0\refint\TestApp.dll

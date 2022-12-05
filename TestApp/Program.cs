@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace TestApp
 {
@@ -54,7 +53,7 @@ namespace TestApp
 
         static void Main(string[] args)
         {
-            Parsers.KeyValueBinary kvbParser = new Parsers.KeyValueBinary();
+            HarvestellaBinTextLib.Parser.KeyValueBinary kvbParser = new HarvestellaBinTextLib.Parser.KeyValueBinary();
             kvbParser.setData(inp);
             kvbParser.ParseData();
             Dictionary<String, String> dict = kvbParser.getAsDictionary();
@@ -63,7 +62,7 @@ namespace TestApp
                 Console.WriteLine("'{0}' = '{1}'", kvp.Key, kvp.Value);
             }
 
-            Builders.KeyValueBinary kvbBuilder = new Builders.KeyValueBinary();
+            HarvestellaBinTextLib.Builder.KeyValueBinary kvbBuilder = new HarvestellaBinTextLib.Builder.KeyValueBinary();
             kvbBuilder.fromDictionary(dict);
             byte[] bytes = kvbBuilder.getData();
 
