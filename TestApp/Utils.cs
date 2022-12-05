@@ -23,7 +23,7 @@ namespace TestApp
             return sb.ToString();
         }
 
-        public static Byte[] ConvertBytesToString(String str)
+        public static Byte[] ConvertStringToBytes(String str)
         {
             char[] chars = str.ToCharArray();
             byte[] bytes = new byte[chars.Length];
