@@ -4,8 +4,9 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using HarvestellaBinTextLib;
 
-namespace TestApp.Builders
+namespace HarvestellaBinTextLib.Builder
 {
     public class KeyValueBinary
     {
@@ -81,7 +82,6 @@ namespace TestApp.Builders
                 val.CopyTo(ret, currentPos);
                 currentPos += (uint)val.Length;
             }
-
 
             return ret;
         }

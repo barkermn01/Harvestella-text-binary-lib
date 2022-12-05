@@ -4,9 +4,9 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TestApp;
+using HarvestellaBinTextLib;
 
-namespace TestApp.Parsers
+namespace HarvestellaBinTextLib.Parser
 {
     public class KeyValueBinary
     {

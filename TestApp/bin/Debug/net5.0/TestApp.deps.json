@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v5.0": {
       "TestApp/1.0.0": {
+        "dependencies": {
+          "HarvestellaBinLib": "1.0.0"
+        },
         "runtime": {
           "TestApp.dll": {}
+        }
+      },
+      "HarvestellaBinLib/1.0.0": {
+        "runtime": {
+          "HarvestellaBinLib.dll": {}
         }
       }
     }
   },
   "libraries": {
     "TestApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HarvestellaBinLib/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
