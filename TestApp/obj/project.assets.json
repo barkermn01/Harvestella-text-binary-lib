@@ -1,10 +1,10 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {
+    "net6.0": {
       "HarvestellaBinLib/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
           "bin/placeholder/HarvestellaBinLib.dll": {}
         },
@@ -22,7 +22,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net5.0": [
+    "net6.0": [
       "HarvestellaBinLib >= 1.0.0"
     ]
   },
@@ -33,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Marti\\source\\repos\\TestApp\\TestApp\\TestApp.csproj",
+      "projectUniqueName": "C:\\Users\\Marti\\Source\\Repos\\Harvestella-text-binary-lib\\TestApp\\TestApp.csproj",
       "projectName": "TestApp",
-      "projectPath": "C:\\Users\\Marti\\source\\repos\\TestApp\\TestApp\\TestApp.csproj",
+      "projectPath": "C:\\Users\\Marti\\Source\\Repos\\Harvestella-text-binary-lib\\TestApp\\TestApp.csproj",
       "packagesPath": "C:\\Users\\Marti\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Marti\\source\\repos\\TestApp\\TestApp\\obj\\",
+      "outputPath": "C:\\Users\\Marti\\Source\\Repos\\Harvestella-text-binary-lib\\TestApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -48,18 +48,19 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net5.0"
+        "net6.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://pkgs.dev.azure.com/dotnet/CommunityToolkit/_packaging/CommunityToolkit-MainLatest/nuget/v3/index.json": {}
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Marti\\source\\repos\\TestApp\\HarvestellaBinLib\\HarvestellaBinLib.csproj": {
-              "projectPath": "C:\\Users\\Marti\\source\\repos\\TestApp\\HarvestellaBinLib\\HarvestellaBinLib.csproj"
+            "C:\\Users\\Marti\\Source\\Repos\\Harvestella-text-binary-lib\\HarvestellaBinLib\\HarvestellaBinLib.csproj": {
+              "projectPath": "C:\\Users\\Marti\\Source\\Repos\\Harvestella-text-binary-lib\\HarvestellaBinLib\\HarvestellaBinLib.csproj"
             }
           }
         }
@@ -71,8 +72,8 @@
       }
     },
     "frameworks": {
-      "net5.0": {
-        "targetAlias": "net5.0",
+      "net6.0": {
+        "targetAlias": "net6.0",
         "imports": [
           "net461",
           "net462",
@@ -89,7 +90,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
